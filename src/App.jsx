@@ -1,11 +1,13 @@
-import { HeroSecontion } from './sections/HeroSection'
+import { Hero } from './sections/Hero'
+import { AboutMe } from './sections/AboutMe';
 import './App.css'
 
 function App() {
   return (
-    <>
-      <HeroSecontion />
-    </>
+    <div className='Container'>
+      <Hero />
+      <AboutMe />
+    </div>
   );
 }
 
