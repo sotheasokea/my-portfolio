@@ -11,6 +11,7 @@
   font-weight: 700;
   color: #000;
   margin-bottom: 30px;
+  text-align: left;
 }
 
 .education-grid {
@@ -30,6 +31,7 @@
   border-radius: 50%;
   background: #007bff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: left;
 }
 
 .education-item img {
@@ -41,6 +43,7 @@
 
 .education-entry {
   min-width: 0;
+  text-align: left;
 }
 
 .education-entry h3 {
