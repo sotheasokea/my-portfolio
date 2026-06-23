@@ -20,7 +20,7 @@ export function Certificate(){
             <p className="certificate-date">March 2023</p>
           </article>
 
-          <article className="certificate-card certificate-featured">
+          <article className="certificate-card">
             <div className="certificate-image-container">
               <img src={googleIcon} alt="Google" className="certificate-image" />
             </div>
