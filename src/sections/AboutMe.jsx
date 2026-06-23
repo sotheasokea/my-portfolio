@@ -1,17 +1,23 @@
-import "./AboutMe.css";
+import './AboutMe.css'
+import resumeIcon from '../assets/images/resume-icon.png'
+import profileIcon from '../assets/images/profile-icon.png'
+import mortarboardIcon from '../assets/images/mortarboard-icon.png'
+import projectIcon from '../assets/images/project-icon.png'
+import internshipIcon from '../assets/images/data-entry-internship-icon.png'
+
 export function AboutMe() {
   return (
-    <section className="about-section">
+    <section className="about-section" id="about">
       <div className="about-header">
         <h2 className="about-title">About Me</h2>
         <a href="www.example.com" className="download-resume-button">
-          <img src="images/resume-icon.png" alt="Resume icon" /> Download Resume
+          <img src={resumeIcon} alt="Resume icon" /> Download Resume
         </a>
       </div>
 
       <div className="about-grid">
         <div className="about-item">
-          <img src="images/profile-icon.png" alt="" />
+          <img src={profileIcon} alt="" />
         </div>
         <div className="about-intro-wrapper">
           <p className="about-intro">
@@ -22,7 +28,7 @@ export function AboutMe() {
         </div>
 
         <div className="about-item">
-          <img src="images/mortarboard-icon.png" alt="Education icon" />
+          <img src={mortarboardIcon} alt="Education icon" />
         </div>
         <div className="about-entry">
           <h3>Bachelor of Computer Science</h3>
@@ -34,7 +40,7 @@ export function AboutMe() {
         </div>
 
         <div className="about-item">
-          <img src="images/project-icon.png" alt="Projects icon" />
+          <img src={projectIcon} alt="Projects icon" />
         </div>
         <div className="about-entry">
           <h3>Personal Projects</h3>
@@ -47,7 +53,7 @@ export function AboutMe() {
 
         <div className="about-item">
           <img
-            src="images/data-entry-internship-icon.png"
+            src={internshipIcon}
             alt="Internship icon"
           />
         </div>

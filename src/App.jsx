@@ -1,18 +1,24 @@
+import { Header } from './components/Header'
 import { Hero } from './sections/Hero'
-import { AboutMe } from './sections/AboutMe';
-import { Projects } from './sections/Projects';
-import { Education } from './sections/Education';
+import { AboutMe } from './sections/AboutMe'
+import { Projects } from './sections/Projects'
+import { Education } from './sections/Education'
+import { Certificate } from './sections/Certificate'
 import './App.css'
 
 function App() {
   return (
-    <div className='Container'>
-      <Hero />
-      <AboutMe />
-      <Projects />
-      <Education />
-    </div>
-  );
+    <>
+      <Header />
+      <main className="container">
+        <Hero />
+        <AboutMe />
+        <Projects />
+        <Education />
+        <Certificate />
+      </main>
+    </>
+  )
 }
 
 export default App

@@ -1,11 +1,13 @@
-import { Header } from "../components/Header";
 import './Hero.css'
+import mailIcon from '../assets/images/mail-icon.png'
+import githubIcon from '../assets/images/github-icon.png'
+import linkedinIcon from '../assets/images/linkedin-icon.png'
+import resumeIcon from '../assets/images/resume-icon.png'
+import profileImage from '../assets/images/my-profile-image.png'
 
 export function Hero() {
   return (
-    <>
-      <Header />
-      <section className="hero-section">
+      <section className="hero-section" id="home">
         <div className="profile-intro-section">
           <p className="greeting-text">Hi, I'm</p>
           <h2 className="profile-name">Sothea</h2>
@@ -26,7 +28,7 @@ export function Hero() {
               View projects →
             </a>
             <a href="www.example.com" className="contact-me-button">
-              <img src="images/mail-icon.png" alt="Mail icon" /> Contact me
+              <img src={mailIcon} alt="Mail icon" /> Contact me
             </a>
           </div>
         </div>
@@ -34,7 +36,7 @@ export function Hero() {
         <div className="profile-image-section">
           <div className="profile-image-wrapper">
             <img
-              src="images/my-profile-image.png"
+              src={profileImage}
               alt="Sothea profile"
               className="profile-image"
             />
@@ -42,25 +44,23 @@ export function Hero() {
 
           <div className="social-media-links">
             <a href="www.example.com" className="social-media-icon" title="GitHub">
-              <img src="images/github-icon.png" alt="GitHub" />
+              <img src={githubIcon} alt="GitHub" />
             </a>
             <a
               href="www.example.com"
               className="social-media-icon"
               title="LinkedIn"
             >
-              <img src="images/linkedin-icon.png" alt="LinkedIn" />
+              <img src={linkedinIcon} alt="LinkedIn" />
             </a>
             <a href="www.example.com" className="social-media-icon" title="Email">
-              <img src="images/mail-icon.png" alt="Email" />
+              <img src={mailIcon} alt="Email" />
             </a>
             <a href="www.example.com" className="social-media-icon" title="Resume">
-              <img src="images/resume-icon.png" alt="Resume" />
+              <img src={resumeIcon} alt="Resume" />
             </a>
           </div>
         </div>
       </section>
-      
-    </>
   );
 }

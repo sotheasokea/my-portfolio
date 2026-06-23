@@ -4,10 +4,13 @@
   gap: 60px;
   align-items: center;
 }
+
+/* Profile Intro Section */
 .profile-intro-section {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  text-align: start;
 }
 
 .greeting-text {
@@ -175,7 +178,39 @@
   font-weight: 600;
   transition: all 0.3s ease;
 }
+.profile-intro-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: start;
+  text-align: left; /* ← add this */
+}
 
-.view-all-projects-link:hover {
-  color: #16a79b;
+/* Add this media query at the bottom of the file */
+@media (max-width: 768px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .profile-intro-section {
+    text-align: center;
+    align-items: center;
+  }
+
+  .profile-image-section {
+    order: -1; /* image appears above text on mobile */
+  }
+
+  .profile-description {
+    max-width: 100%;
+  }
+
+  .action-buttons {
+    justify-content: center;
+  }
+
+  .profile-name {
+    font-size: 48px;
+  }
 }
