@@ -10,13 +10,13 @@ function App() {
   return (
     <>
       <Header />
-      <main className="container">
+      <div className="container">
         <Hero />
         <AboutMe />
         <Projects />
         <Education />
         <Certificate />
-      </main>
+      </div>
     </>
   )
 }
