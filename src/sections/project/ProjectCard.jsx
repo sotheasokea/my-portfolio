@@ -1,20 +1,12 @@
 import websiteIcon from "../../assets/images/website-icon.png";
 import externalIcon from "../../assets/images/box-arrow-up-right-icon.png";
 import { projects } from "./projectsData";
-import './ProjectCard.css'
+import "./ProjectCard.css";
 
 export function ProjectCard() {
   return (
     <>
       {projects.map((project) => {
-        const tech = project.technologies;
-        function outputTech(){
-          tech.forEach((t)=>{
-            return (
-              <span className="tech-badge">{t}</span>
-            );
-          })
-        }
         return (
           <>
             <article className="project-card">
@@ -30,7 +22,13 @@ export function ProjectCard() {
 
               <p className="project-description">{project.description}</p>
 
-              <div className="project-technologies">{outputTech()}</div>
+              <div className="project-technologies">
+                {project.technologies.map((tech, i) => (
+                  <span className="tech-badge" key={i}>
+                    {tech}
+                  </span>
+                ))}
+              </div>
 
               <div className="project-links">
                 <a
@@ -40,10 +38,10 @@ export function ProjectCard() {
                 >
                   <img src={websiteIcon} alt="Live demo" /> Live Demo
                 </a>
-                <a 
-                  href={project.githubLink} 
+                <a
+                  href={project.githubLink}
                   className="project-link github-link"
-                  target="_blank"  
+                  target="_blank"
                 >
                   <img src={externalIcon} alt="External" /> GitHub
                 </a>
