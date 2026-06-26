@@ -1,6 +1,8 @@
 import websiteIcon from "../../assets/images/website-icon.png";
 import externalIcon from "../../assets/images/box-arrow-up-right-icon.png";
 import { projects } from "./projectsData";
+import './ProjectCard.css'
+
 export function ProjectCard() {
   return (
     <>
