@@ -1,5 +1,6 @@
 import profileIcon from "../../assets/images/profile-icon.png";
 import { experiences } from "./aboutData";
+import './AboutItem.css'
 export function AboutItem() {
   return (
     <>
