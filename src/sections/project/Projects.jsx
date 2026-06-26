@@ -1,7 +1,7 @@
 import './Projects.css'
-import chatbotImage from '../assets/images/chatbot-project-image.webp'
-import websiteIcon from '../assets/images/website-icon.png'
-import externalIcon from '../assets/images/box-arrow-up-right-icon.png'
+import chatbotImage from '../../assets/images/chatbot-project-image.webp'
+import websiteIcon from '../../assets/images/website-icon.png'
+import externalIcon from '../../assets/images/box-arrow-up-right-icon.png'
 
 export function Projects(){
   return (
