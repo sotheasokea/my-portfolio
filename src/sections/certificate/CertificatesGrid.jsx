@@ -1,11 +1,10 @@
 import { CertificateCard } from "./CertificateCard";
-import { certifcations } from "./certificatesData";
 import "./CertificatesGrid.css";
 
-export function CertificatesGrid() {
+export function CertificatesGrid({ visibleCertificate }) {
   return (
     <div className="certificates-grid">
-      <CertificateCard certifcations={ certifcations }/>
+      <CertificateCard certifcations={ visibleCertificate }/>
     </div>
   );
 }
