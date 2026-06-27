@@ -1,4 +1,5 @@
 import { schools } from "./educationData";
+import './EducationGrid.css'
 
 export function EducationGrid() {
   return (
