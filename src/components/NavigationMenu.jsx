@@ -7,6 +7,7 @@ import githubIcon from "../assets/images/github-icon.png";
 import linkedinIcon from "../assets/images/linkedin-icon.png";
 import mailIcon from "../assets/images/mail-icon.png";
 import resumeIcon from "../assets/images/resume-icon.png";
+import './NavigationMenu.css'
 
 export function NavigationMenu({menuOpen, closeMenu}) {
   return (
