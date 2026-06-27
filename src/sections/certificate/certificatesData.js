@@ -28,4 +28,11 @@ export const certifcations = [
     provider: "Google",
     date: "March 2023"
   },
+  {
+    id:  5, 
+    icon: googleIcon,
+    course: "Google Cybersecurity Professional Certificate",
+    provider: "Google",
+    date: "March 2023"
+  }
 ];

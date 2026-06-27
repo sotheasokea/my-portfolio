@@ -16,7 +16,7 @@ export function Projects(){
             className="view-all-projects-link"
             onClick={() => setShowAll((current) => !current)}
           >
-            {showAll ? 'Show fewer projects' : 'View all projects →'}
+            {showAll ? 'Show less →' : 'View all projects →'}
           </button>
         </div>
 
