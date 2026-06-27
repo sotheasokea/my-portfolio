@@ -60,20 +60,35 @@ export function NavigationMenu({menuOpen, closeMenu}) {
         <div className="nav-footer">
           <p className="nav-section-title">Let's connect</p>
           <div className="nav-social-links-list">
-            <a href="www.example.com" className="nav-social-item">
+            <a 
+              href="https://github.com/sotheasokea" 
+              target="_blank" 
+              className="nav-social-item"
+            >
               <img src={githubIcon} alt="GitHub" />
               <span>github.com/sotheasokea</span>
             </a>
-            <a href="www.example.com" className="nav-social-item">
+            <a 
+              href="https://www.linkedin.com/in/sothea-sokea-736741354/"
+              target="_blank"
+              className="nav-social-item"
+            >
               <img src={linkedinIcon} alt="LinkedIn" />
               <span>Sothea Sokea</span>
             </a>
-            <a href="www.example.com" className="nav-social-item">
+            <a 
+              href="mailto:sokeasothea7@gmail.com"  
+              className="nav-social-item"
+            >
               <img src={mailIcon} alt="Email" />
               <span>sokeasothea7@gmail.com</span>
             </a>
           </div>
-          <a href="www.example.com" className="nav-download-btn-large">
+          <a 
+            href="www.example.com"
+            target="_blank"
+            className="nav-download-btn-large"
+          >
             <img src={resumeIcon} alt="Resume" /> Download Resume
           </a>
         </div>

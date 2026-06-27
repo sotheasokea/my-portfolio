@@ -17,20 +17,32 @@ export function ProfileImaage() {
       </div>
 
       <div className="social-media-links">
-        <a href="www.example.com" className="social-media-icon" title="GitHub">
+        <a 
+          href="https://github.com/sotheasokea" 
+          className="social-media-icon" 
+          target="_blank"
+          title="GitHub">
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="www.example.com"
+          href="https://www.linkedin.com/in/sothea-sokea-736741354/"
           className="social-media-icon"
+          target="_blank"
           title="LinkedIn"
         >
           <img src={linkedinIcon} alt="LinkedIn" />
         </a>
-        <a href="www.example.com" className="social-media-icon" title="Email">
+        <a 
+          href="mailto:sokeasothea7@gmail.com" 
+          className="social-media-icon" 
+          title="Email">
           <img src={mailIcon} alt="Email" />
         </a>
-        <a href="www.example.com" className="social-media-icon" title="Resume">
+        <a 
+          href="www.example.com" 
+          className="social-media-icon" 
+          target="_blank"
+          title="Resume">
           <img src={resumeIcon} alt="Resume" />
         </a>
       </div>

@@ -18,10 +18,16 @@ export function ProfileIntro() {
       </p>
 
       <div className="action-buttons">
-        <a href="www.example.com" className="view-projects-button">
+        <a 
+          href="#projects" 
+          className="view-projects-button"
+        >
           View projects →
         </a>
-        <a href="www.example.com" className="contact-me-button">
+        <a 
+          href="mailto:sokeasothea7@gmail.com" 
+          className="contact-me-button"
+        >
           <img src={mailIcon} alt="Mail icon" /> Contact me
         </a>
       </div>
