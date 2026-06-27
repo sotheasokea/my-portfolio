@@ -1,4 +1,4 @@
-import mailIcon from "../../assets/images/mail-icon.png";
+import mailIcon from "../../assets/mail-icon.png";
 import './ProfileIntro.css'
 export function ProfileIntro() {
   return (

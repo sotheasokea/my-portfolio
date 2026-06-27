@@ -1,8 +1,8 @@
-import githubIcon from "../../assets/images/github-icon.png";
-import linkedinIcon from "../../assets/images/linkedin-icon.png";
-import resumeIcon from "../../assets/images/resume-icon.png";
-import profileImage from "../../assets/images/my-profile-image.png";
-import mailIcon from "../../assets/images/mail-icon.png";
+import githubIcon from "../../assets/github-icon.png";
+import linkedinIcon from "../../assets/linkedin-icon.png";
+import resumeIcon from "../../assets/resume-icon.png";
+import profileImage from "../../assets/my-profile-image.png";
+import mailIcon from "../../assets/mail-icon.png";
 import './ProfileImage.css'
 
 export function ProfileImaage() {

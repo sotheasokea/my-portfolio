@@ -1,4 +1,4 @@
-import chatbotImage from "../../assets/images/chatbot-project-image.webp";
+import chatbotImage from "../../assets/chatbot-project-image.webp";
 
 export const projects = [
   {

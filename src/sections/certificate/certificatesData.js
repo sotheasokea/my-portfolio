@@ -1,4 +1,4 @@
-import googleIcon from '../../assets/images/google-icon.png'
+import googleIcon from '../../assets/google-icon.png'
 export const certifcations = [
   {
     id:  1, 

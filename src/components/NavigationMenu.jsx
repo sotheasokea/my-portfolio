@@ -1,12 +1,12 @@
-import homeIcon from "../assets/images/home-icon.png";
-import profileIcon from "../assets/images/profile-icon.png";
-import projectIcon from "../assets/images/project-icon.png";
-import mortarboardIcon from "../assets/images/mortarboard-icon.png";
-import certificateIcon from "../assets/images/certificate-icon.png";
-import githubIcon from "../assets/images/github-icon.png";
-import linkedinIcon from "../assets/images/linkedin-icon.png";
-import mailIcon from "../assets/images/mail-icon.png";
-import resumeIcon from "../assets/images/resume-icon.png";
+import homeIcon from "../assets/home-icon.png";
+import profileIcon from "../assets/profile-icon.png";
+import projectIcon from "../assets/project-icon.png";
+import mortarboardIcon from "../assets/mortarboard-icon.png";
+import certificateIcon from "../assets/certificate-icon.png";
+import githubIcon from "../assets/github-icon.png";
+import linkedinIcon from "../assets/linkedin-icon.png";
+import mailIcon from "../assets/mail-icon.png";
+import resumeIcon from "../assets/resume-icon.png";
 import './NavigationMenu.css'
 
 export function NavigationMenu({menuOpen, closeMenu}) {

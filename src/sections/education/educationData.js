@@ -1,5 +1,5 @@
-import mortarboardIcon from "../../assets/images/mortarboard-icon.png";
-import highSchoolIcon from "../../assets/images/high-school-icon.png";
+import mortarboardIcon from "../../assets/mortarboard-icon.png";
+import highSchoolIcon from "../../assets/high-school-icon.png";
 
 export const schools = [
   {

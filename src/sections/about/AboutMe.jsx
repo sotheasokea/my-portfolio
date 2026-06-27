@@ -1,5 +1,5 @@
 import './AboutMe.css'
-import resumeIcon from '../../assets/images/resume-icon.png'
+import resumeIcon from '../../assets/resume-icon.png'
 import { AboutItem } from './AboutItem';
 
 export function AboutMe() {

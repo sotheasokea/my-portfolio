@@ -1,5 +1,5 @@
-import websiteIcon from "../../assets/images/website-icon.png";
-import externalIcon from "../../assets/images/box-arrow-up-right-icon.png";
+import websiteIcon from "../../assets/website-icon.png";
+import externalIcon from "../../assets/box-arrow-up-right-icon.png";
 import { projects } from "./projectsData";
 import { Fragment } from "react";
 import "./ProjectCard.css";

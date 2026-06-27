@@ -1,4 +1,4 @@
-import profileIcon from "../../assets/images/profile-icon.png";
+import profileIcon from "../../assets/profile-icon.png";
 import { experiences } from "./aboutData";
 import { Fragment } from "react";
 import './AboutItem.css'
