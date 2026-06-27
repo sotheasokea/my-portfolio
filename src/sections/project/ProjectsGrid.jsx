@@ -1,10 +1,10 @@
 import { ProjectCard } from './ProjectCard';
 import './ProjectsGrid.css'
 
-export function ProjectsGrid(){
+export function ProjectsGrid({ projects }){
   return (
   <div className="projects-grid">
-    <ProjectCard />
+    <ProjectCard projects={projects} />
   </div>
   );
 }

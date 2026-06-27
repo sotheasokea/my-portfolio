@@ -36,5 +36,14 @@ export const projects = [
     technologies: ["HTML", "CSS", "JS"],
     projectLink: "www.example.com",
     githubLink: "www.example.com"
+  },
+  {
+    id: 5,
+    projectImage: chatbotImage,
+    projectName: "Chatbot",
+    description: `A chatbot that is made from learning from youtube channel and improving by doing exercises from each lessons`,
+    technologies: ["HTML", "CSS", "JS"],
+    projectLink: "www.example.com",
+    githubLink: "www.example.com"
   }
 ]
