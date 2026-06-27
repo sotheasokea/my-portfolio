@@ -1,5 +1,6 @@
 import profileIcon from "../../assets/images/profile-icon.png";
 import { experiences } from "./aboutData";
+import { Fragment } from "react";
 import './AboutItem.css'
 export function AboutItem() {
   return (
@@ -17,7 +18,7 @@ export function AboutItem() {
 
       {experiences.map((experience) => {
         return (
-          <>
+          <Fragment key={experience.id}>
             <div className="about-item">
               <img src={experience.icon} alt="Education icon" />
             </div>
@@ -26,7 +27,7 @@ export function AboutItem() {
               <span className="date">{experience.date}</span>
               <p>{experience.description}</p>
             </div>
-          </>
+          </Fragment>
         );
       })}
 

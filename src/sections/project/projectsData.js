@@ -11,7 +11,7 @@ export const projects = [
     githubLink: "www.example.com"
   },
   {
-    id: 1,
+    id: 2,
     projectImage: chatbotImage,
     projectName: "Chatbot",
     description: `A chatbot that is made from learning from youtube channel and improving by doing exercises from each lessons`,
@@ -20,7 +20,7 @@ export const projects = [
     githubLink: "www.example.com"
   },
   {
-    id: 1,
+    id: 3,
     projectImage: chatbotImage,
     projectName: "Chatbot",
     description: `A chatbot that is made from learning from youtube channel and improving by doing exercises from each lessons`,
@@ -29,7 +29,7 @@ export const projects = [
     githubLink: "www.example.com"
   },
   {
-    id: 1,
+    id: 4,
     projectImage: chatbotImage,
     projectName: "Chatbot",
     description: `A chatbot that is made from learning from youtube channel and improving by doing exercises from each lessons`,

@@ -1,4 +1,5 @@
 import { schools } from "./educationData";
+import { Fragment } from "react";
 import './EducationGrid.css'
 
 export function EducationGrid() {
@@ -6,7 +7,7 @@ export function EducationGrid() {
     <div className="education-grid">
       {schools.map((school) => {
         return (
-          <>
+          <Fragment key={school.id}>
             <div className="education-item">
               <img src={school.icon} alt="University icon" />
             </div>
@@ -16,7 +17,7 @@ export function EducationGrid() {
               <p className="school-name">{school.institutionName}</p>
               <p>{school.description}</p>
             </div>
-          </>
+          </Fragment>
         );
       })}
     </div>

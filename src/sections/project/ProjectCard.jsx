@@ -1,6 +1,7 @@
 import websiteIcon from "../../assets/images/website-icon.png";
 import externalIcon from "../../assets/images/box-arrow-up-right-icon.png";
 import { projects } from "./projectsData";
+import { Fragment } from "react";
 import "./ProjectCard.css";
 
 export function ProjectCard() {
@@ -8,7 +9,7 @@ export function ProjectCard() {
     <>
       {projects.map((project) => {
         return (
-          <>
+          <Fragment key={project.id}>
             <article className="project-card">
               <div className="project-image-container">
                 <img
@@ -47,7 +48,7 @@ export function ProjectCard() {
                 </a>
               </div>
             </article>
-          </>
+          </Fragment>
         );
       })}
     </>
