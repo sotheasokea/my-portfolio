@@ -4,7 +4,7 @@ import "./CertificatesGrid.css";
 export function CertificatesGrid({ visibleCertificate }) {
   return (
     <div className="certificates-grid">
-      <CertificateCard certifcations={ visibleCertificate }/>
+      <CertificateCard certifications={ visibleCertificate }/>
     </div>
   );
 }
