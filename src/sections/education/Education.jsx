@@ -1,6 +1,6 @@
 import "./Education.css";
-import mortarboardIcon from "../assets/images/mortarboard-icon.png";
-import highSchoolIcon from "../assets/images/high-school-icon.png";
+import mortarboardIcon from "../../assets/images/mortarboard-icon.png";
+import highSchoolIcon from "../../assets/images/high-school-icon.png";
 
 export function Education() {
   return (

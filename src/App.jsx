@@ -2,7 +2,7 @@ import { Header } from './components/Header'
 import { Hero } from './sections/Hero'
 import { AboutMe } from './sections/about/AboutMe'
 import { Projects } from './sections/project/Projects'
-import { Education } from './sections/Education'
+import { Education } from './sections/education/Education'
 import { Certificate } from './sections/Certificate'
 import './App.css'
 
