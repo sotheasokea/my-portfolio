@@ -4,6 +4,7 @@ import hackerRankProfile from '../../assets/certificate/hacker-rank-logo.png'
 import ciscoIcon from '../../assets/certificate/cisco-icon.jpg'
 import speexxIcon from '../../assets/certificate/speexx-icon.png'
 import thaiMoocIcon from '../../assets/certificate/thai-mooc-icon.png'
+import kaggleIcon from '../../assets/certificate/kaggle-icon.png'
 export const certifcations = [
   {
     id:  1, 
@@ -30,6 +31,14 @@ export const certifcations = [
     certificateLink: "/certificates/networking-basics.pdf"
   },
   {
+    id:  7, 
+    icon: kaggleIcon,
+    course: "Intro to Machine Learning",
+    provider: "Kaggle",
+    date: "June 28 2026",
+    certificateLink: "/certificates/kaggle-intro-to-machine-learning.png"
+  },
+  {
     id:  4, 
     icon: ciscoIcon,
     course: "Computer Hardware Basics",
@@ -38,7 +47,7 @@ export const certifcations = [
     certificateLink: "/certificates/computer-hardware-basics-ceritficate.pdf"
   },
   {
-    id:  6, 
+    id:  5, 
     icon: speexxIcon,
     course: "English B2 Test",
     provider: "speexx",
@@ -46,7 +55,7 @@ export const certifcations = [
     certificateLink: "/certificates/speexx-certificate.pdf"
   },
   {
-    id:  5, 
+    id:  6, 
     icon: thaiMoocIcon,
     course: "Basic web page with HTML and CSS",
     provider: "Chulalongkorn University",
