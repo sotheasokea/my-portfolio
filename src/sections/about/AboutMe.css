@@ -1,6 +1,6 @@
 .about-section {
   background-color: white;
-  border: 2px solid #eaeaea;
+  border: 1px solid #eaeaea;
   border-radius: 10px;
   padding: 30px;
   margin: 40px 0;
@@ -23,16 +23,19 @@
 }
 
 .download-resume-button {
-  background-color: #e6f7f4;
-  color: #006;
+  background-color: #8fabf9;
+  color: #ffffff; 
   padding: 8px 14px;
   border-radius: 8px;
   text-decoration: none;
   display: inline-flex;
   gap: 8px;
   align-items: center;
-  border: 1px solid #d0eef0;
+  border: 1px solid #3f64f6;
   font-weight: 600;
+}
+.download-resume-button:hover{
+  background-color: #7598f9;
 }
 
 .download-resume-button img {

@@ -132,8 +132,8 @@
   justify-content: center;
   gap: 8px;
   padding: 12px 16px;
-  background-color: #4dd0c1;
-  color: #000;
+  background-color: #4473f6;
+  color: #ffffff;
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;
@@ -143,7 +143,7 @@
 }
 
 .nav-download-btn-large:hover {
-  background-color: #3ab8ad;
+  background-color: #0736b6;
 }
 
 .nav-download-btn-large img {
