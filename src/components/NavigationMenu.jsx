@@ -1,4 +1,3 @@
-import { ResumeModal } from "./ResumeModal";
 import homeIcon from "../assets/home-icon.png";
 import profileIcon from "../assets/profile-icon.png";
 import projectIcon from "../assets/project-icon.png";
@@ -11,7 +10,6 @@ import resumeIcon from "../assets/resume-icon.png";
 import './NavigationMenu.css'
 
 export function NavigationMenu({menuOpen, closeMenu}) {
-  const { handleDownloadClick, modal } = ResumeModal();
   return (
     <>
       <nav className={`mobile-nav${menuOpen ? " active" : ""}`}>
@@ -87,8 +85,8 @@ export function NavigationMenu({menuOpen, closeMenu}) {
             </a>
           </div>
            <a 
-          href="#"
-          onClick={handleDownloadClick}
+          href="https://i.pinimg.com/1200x/27/20/10/272010e534b845080b425a6e3497ba75.jpg"
+          target="_blank"
           className="nav-download-btn-large"
         >
           <img src={resumeIcon} alt="Resume" /> Download Resume
@@ -100,7 +98,6 @@ export function NavigationMenu({menuOpen, closeMenu}) {
         className={`nav-overlay${menuOpen ? " active" : ""}`}
         onClick={closeMenu}
       />
-      {modal}
     </>
   );
 }
